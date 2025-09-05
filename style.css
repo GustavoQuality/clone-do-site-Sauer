@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px 60px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+
+    }
+
+    .cabecalho{
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .logo img{
+        width: 180px;
+        height: 40px;
+    }
+     
+   nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    text-align: center; /* Centraliza o texto dentro do li */
+    padding: 10px 0 ;
+    
+    
+}
+
+    nav a{
+        text-decoration: none;
+        color: #8b8b8b;
+        font-size: 16px;
+        padding: 8px 0px;
+        display: block;
+        letter-spacing: .23em;
+        line-height: 28px;
+        text-transform: uppercase;
+        flex-wrap: wrap;
+    }
+
+    .banner {
+    width: 100%;
+    height: 670px;
+    background-image: url('images/banner-principal.webp');
+    background-size: cover; /* cobre toda a div */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat;
+    
+}
+
+    .banner img{
+    max-width: 100%;
+    height: 600px; /* mantém a proporção */
+    display: flex; /* remove espaçamento extra de inline */
+    flex-wrap: wrap;
+    
+    }
+
+
+    .catálogo{
+        margin: 0 auto; /* Centraliza o contêiner */
+        max-width: 1300px; 
+        flex-wrap: wrap;
+    
+        
+}
+    
+.catálogo p{
+
+font-size: 1.2em;
+ color: #8b8b8b;
+ letter-spacing: 0.23em;
+ text-transform: uppercase;
+ padding: 0 30px;
+ margin-top: 50px;
+flex-wrap: wrap;
+}
+    .colecoes {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 20px; /* Adiciona espaço entre as colunas */
+    max-width: 1300px; /* Limita a largura do contêiner */
+    flex-wrap: wrap;
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    
+   
+}
+
+.colecoes img{
+    width: 400px;
+    margin: 40px auto;
+    margin-bottom: 10px;
+}
+
+h3{
+font-size: 1.2em;
+ color: #8b8b8b;
+ text-align: center;
+}
+
+    
+    
