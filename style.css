@@ -71,17 +71,9 @@ nav ul li {
     background-size: cover; /* cobre toda a div */
     background-position: center; /* centraliza a imagem */
     background-repeat: no-repeat;
-    
-}
-
-    .banner img{
-    max-width: 100%;
-    height: 600px; /* mantém a proporção */
-    display: flex; /* remove espaçamento extra de inline */
     flex-wrap: wrap;
-    
-    }
-
+    display: flex;
+}
 
     .catálogo{
         margin: 0 auto; /* Centraliza o contêiner */
