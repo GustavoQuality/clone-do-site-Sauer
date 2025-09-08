@@ -39,8 +39,8 @@ body {
    nav ul {
     list-style: none;
     display: flex;
-    padding: 0;
-    margin: 0;
+    flex: 1;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -48,6 +48,8 @@ body {
 nav ul li {
     text-align: center; /* Centraliza o texto dentro do li */
     padding: 10px 0 ;
+    flex-wrap: wrap;
+    flex: 1;
     
     
 }
